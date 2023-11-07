@@ -1,3 +1,4 @@
 # tourism
 One of the best tourism website
-<br> Tourism Website <br>
+<br> Tourism Project <br>
+author: Niraj, Sagara, Nishant, Ranvijay, Dev.
