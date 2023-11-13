@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.head{
+    width: 100%;
+    text-align: center;
+    font-size:50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box1{
+    height: auto;
+    display: flex;
+    flex-wrap:wrap ;
+}
+.box2{
+    height: auto;
+    width: auto;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap ;
+    border-bottom: 2px solid;
+}
+.box3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-shrink: 5;
+    height: auto;
+    background-color: rgba(255, 255, 255);
+   
+}
+.box4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-shrink: 5;
+    height: auto;
+    background-color: white;
+}
+.box5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-shrink: 5;
+    height: auto;
+    background-color:white ;
+}
+body{
+    background:linear-gradient(45deg,#a9afe1,#19afaa);      display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+ }
+
+.container{
+    
+    width: 400px;
+    height: 450px;
+    perspective: 450px;
+
+}
+.container:hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+.card{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+.bold{
+    font-weight: bold;
+  }
+  
+p{  text-align: center;
+    padding: 5px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.front1,.back{
+    width: 100%;
+    height: 100%;
+    
+    box-shadow: 0 0 5px 2px rgba(50,50,50,0,0.25);
+   position: absolute;
+   backface-visibility: hidden;
+
+}
+.front1{
+
+    margin:20px ,20px ,20px ,20px;
+    background-image: url(rvk.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.back{
+    background:linear-gradient(45deg,#a9afe1,#19afaa);  
+     transform: rotateY(180deg);
+
+}
+.front2,.back{
+    width: 100%;
+    height: 100%;
+   
+    
+    box-shadow: 0 0 5px 2px rgba(50,50,50,0,0.25);
+   position: absolute;
+   backface-visibility: hidden;
+
+}
+.front2{
+    margin:20px ,20px ,20px ,20px;
+    background-image: url(dev.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.front3,.back{
+
+    width: 100%;
+    height: 100%;
+    
+    box-shadow: 0 0 5px 2px rgba(50,50,50,0,0.25);
+   position: absolute;
+   backface-visibility: hidden;
+
+}
+.front3{
+    margin:20px ,20px ,20px ,20px;
+    background-image: url(Original\ Geometric\ Digital\ by\ Zina\ Broyan\ _\ Modern\ Art\ on\ Paper\ _\ LINES\ -\ Limited\ Edition\ of\ 10.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.tex{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    word-wrap: normal;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.c1,.c2{
+    width: 50%;
+    height: 450px;
+}
+
+.c1{
+    background-image:url(who\ are\ we.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* common background */
+.te{
+    margin-top: 40px;
+    text-align: center;
+  font-size:larger ;  
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing:1px;
+  word-spacing: 3px;
+  }
+  .quest{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 70px;
+    font-family:aloo;
+    
+}
+li{  margin-left: 3px;
+    letter-spacing:1px;
+    word-spacing: 3px;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+  /* ends */
+
+/* box4 */
+
+.c4,.c3{
+    width: 50%;
+    height: 450px;
+}
+
+.c3{
+    background-image:url(Know\ The\ Reason\ To\ Hire\ Professionals\ In\ Telephonic\ Interpretation.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* box 5 */
+.c5,.c6{
+    width: 50%;
+    height: 450px;
+}
+
+.c5{
+    background-image:url(Free\ Vector\ _\ Traveling\ concept\ illustration.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    background:white;
+    text-align: center;
+    height: 42px;
+    margin-top: 408px;
+    padding: 2px;
+    
+}
+
+.copy{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2rem;
+    background-color: white;
+    font-weight: bold;
+}
+
+
+/*  */
+.gridhead{
+    display: flex;
+    align-content: center;
+    /* background-color: rgba(40, 165, 107, 0.603); */
+    opacity: .98;
+      background-color: #eafbf7;
+      color:black;
+    
+      
+}
+
+.logo{
+    margin: 2rem 10rem 2rem 4rem;
+     font-weight: 600;
+     /* color: rgba(15, 26, 26, 0.909); */
+     
+     font-size: 2.9rem;
+     font-family: 'Raleway', sans-serif;
+      
+}
+
+.l{
+    margin-top: 3rem;
+         margin-left: 22rem;
+         /* color:  rgba(15, 26, 26, 0.909); */
+         
+         font-family: 'Raleway', sans-serif;
+         font-size: 1.1rem;
+}
+
+.ll{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    /* color:  rgb(15, 26, 26); */
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.logo:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.l:hover{
+    cursor: pointer;
+    color: green;
+}
+
+.ll:hover{
+    cursor: pointer;
+    color: green;
+   
+}
+.information{
+    text-decoration: none;
+    color: black;
+  }

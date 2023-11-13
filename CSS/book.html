@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="bookingnow.css">
+</head>
+<body>
+    <div class="gridhead">
+        <div class="logo">WanderLust</div>
+        <div class="l"><a href="index.html" class="information">Home</a></div>
+        <div class="ll"><a href="book.html" class="information">Book Now</a></div>
+        <div class="ll"><a href="l_s.html" class="information">Location</a></div>
+        <div class="ll"> <a href="contactus.html" class="information"> Contact US </a></div>
+        <div class="ll"><a href="faq.html" class="information">FAQs</a></div>
+        <div class="ll"><a href="a.html" class="information">About Us</a></div>
+        <a  class="ll" href="http://localhost/project/rough2.php" style="color: black;">Login</a> </div>
+    <h1 style="text-align: center; margin-top: 2rem;">Please Fill Out The Form</h1>
+    <form action="book.php" method="post">
+        <div class="first">
+            <!-- left side -->
+            <div class="left">
+                       <h3>What is Your Nationality ?</h3>
+                       <select name="nationality" id="nationality" class="selection" required>
+                        <option value="" disabled="" selected="">Select Nationality</option>
+                        <option value="Indian">Indian</option>
+                        <option value="Foreign">Foreign</option>
+                       </select>
+
+                       <br>
+
+                       <!-- total group member -->
+                        <h3>How Many People Are In Group ?</h3>
+                        <!-- adult -->
+                       <select name="adult" class="selection" required>
+                        <option value="" disabled="" selected="">Adults</option>
+                        <option value="03">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                       </select>
+
+                       <!-- children -->
+                       <select name="children" class="selection" required>
+                        <option value="" disabled="" selected="">Childrens(Age<15)</option>
+                        <option value="03">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                       </select>
+                       <br>
+                     <!-- choose date -->
+                     <h3>Choose Date</h3>
+                     <input type="date" name="date" class="selection"  required>
+                     <br>
+                     <h3>Choose Time</h3>
+                     <select name="time" id="time" class="selection" required>
+                        <option value="" disabled="" selected="">None</option>
+                        <option value="Morning">Morning</option>
+                        <option value="Afternoon">After</option>
+                       </select>
+            </div>
+            <!-- right side -->
+            <div class="right">
+                    <input type="text" name="fname" placeholder="First Name" class="inp" required>
+                    <input type="text" name="lname" placeholder="Last Name" class="inp" required>
+                    <br><br>
+                    <!-- more option has to be added -->
+                    <h3>Select Monument</h3>
+                    <select name="location" id="nationality" class="selection" required>
+                        <option value="" disabled="" selected="">Select Monument</option>
+                        <option value="Taj Mahal">Taj Mahak</option>
+                        <option value="Red Fort">Red Fort</option>
+                       </select>
+                       <br><br>
+                       <!-- identity -->
+                       <h3>Choose Your ID verification</h3>
+                       <select name="id" id="id" class="selection" required>
+                        <option value="" disabled="" selected="">Select ID</option>
+                        <option value="Passport">Passport</option>
+                        <option value="Aadhar">Adhar</option>
+                       </select>
+                       <br><br>
+                       <input type="text" class="inp" name="idno" placeholder="Enter Id" required>
+                       <br><br>
+                       <input type="email" class="inp2" name="email" placeholder="Email" required>
+                       <br><br>
+                       <input type="text" class="inp2" name="mobile" placeholder="Contact" required>
+            </div>
+        </div>
+        <div class="sub">
+            <button type="submit" name="save" class="boo">Book</button>
+        </div>
+    </form>
+    
+</body>
+</html>
