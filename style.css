@@ -1,0 +1,797 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Poppins:wght@700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+  
+
+
+*{
+    margin: 0;
+    padding: 0;
+  
+    
+
+}
+/* information */
+.information{
+  text-decoration: none;
+  color: black;
+}
+
+.gridhead{
+    display: flex;
+    align-content: center;
+    /* background-color: rgba(40, 165, 107, 0.603); */
+    opacity: .98;
+      background-color: #eafbf7;
+      color:black;
+    
+      
+}
+
+.logo{
+    margin: 2rem 10rem 2rem 4rem;
+     font-weight: 600;
+     /* color: rgba(15, 26, 26, 0.909); */
+     
+     font-size: 2.9rem;
+     font-family: 'Raleway', sans-serif;
+      
+}
+
+.l{
+    margin-top: 3rem;
+         margin-left: 22rem;
+         /* color:  rgba(15, 26, 26, 0.909); */
+         
+         font-family: 'Raleway', sans-serif;
+         font-size: 1.1rem;
+}
+
+.ll{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    /* color:  rgb(15, 26, 26); */
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+}
+
+.logo:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.l:hover{
+    cursor: pointer;
+    color: green;
+}
+
+.ll:hover{
+    cursor: pointer;
+    color: green;
+   
+}
+
+
+.image-wrapper{
+    overflow: hidden;
+}
+
+/* .image-wrapper{
+      /* display: flex;
+      align-items: center;
+      justify-content: center; */
+      /* position: relative; */
+      /* bottom: 7.4rem;
+      z-index: -1;
+      
+      overflow: hidden;
+      
+} */
+
+/* .text1{
+    font-size: 2rem;
+    margin: 4rem;
+    font-family: 'Raleway', sans-serif;
+} */
+
+
+/* ---------------------------- */
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    animation: slideAnimation 10s infinite; /* Adjust the duration as needed */
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    transition: transform 1s;
+  }
+  
+  @keyframes slideAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    33% {
+      transform: translateX(-100%);
+    }
+    66% {
+      transform: translateX(-200%);
+    }
+    100% {
+      transform: translateX(-200%); /* Adjust based on the number of slides */
+    }
+  }
+  
+/* ------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imagex{
+    margin-left: 2rem;
+    margin-top: 3rem;
+    overflow: hidden;
+    margin-bottom: -7rem;
+
+    
+    
+}
+
+.imagex1{
+    border-radius: 20px;
+}
+
+.textl{
+    position: relative;
+    bottom: 15rem;
+    left: 20rem;
+}
+
+.darkx{
+    font-weight: bolder;
+    font-size: 2.4rem;
+    margin-left: 8rem;
+    margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
+
+}
+.lightx{
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.buttontell{
+
+    position: relative;
+    bottom: 11rem;
+    left: 34rem;
+}
+
+.panrama img{
+    width: 900px ;
+    height: 600px;
+    margin-left: 2.3rem;
+    margin-right: 4.1rem;
+}
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.whyhead{
+    margin-top: 2.3rem;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 3rem;
+    
+
+    color:  rgb(42, 45, 50);
+   line-height :30px;
+   
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+}
+.whyus{
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
+    
+    
+   
+}
+
+.ydark{
+   
+   color:  rgb(42, 45, 50);
+   line-height :30px;
+   font-size :20px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+
+}
+
+.yimage img{
+    margin-top: 1.5rem;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+.ylight{
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: rgb(17, 0, 0);
+font-family :Poppins, Helvetica, Arial,sans-serif;
+font-size :16px;
+font-weight :500;
+margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
+.betterworld{
+  width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.words{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bigbetter{
+    margin-top: 2rem;
+    font-family: Poppins,Inter,-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+
+    letter-spacing: -.01875rem;
+    line-height: 4.5rem; 
+}
+
+.xbetter{
+    color: #30cf72;
+}
+
+.smallbetter{
+    margin-top: 1.3rem;
+    font-family:  Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+
+
+.boxcancel{
+    background-color: #eafbf7;
+    margin-top: 3rem;
+    padding: 30px;
+
+}
+.cancel{
+    color: black;
+    text-align: center;
+    font-size: 2.625rem;
+    font-weight: 100;
+    line-height: 1.2;
+    font-family: Poppins,Inter,-apple-system,BlinkMacSystemFont,sans-serif;
+
+}
+
+.smallcancel{
+    margin-top: 1.3rem;
+    font-family:  Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+footer{
+    width: 100%;
+    /* margin: 0 auto; */
+    
+
+    font-family: 'Raleway', sans-serif;
+  
+      display: flex;
+      margin-top: 150px;
+      /* background-color: rgba(255, 204, 204, 0.546); */
+      background-color: #eafbf7;
+      justify-content: space-around;    
+   }
+
+.logo1{
+    margin: 2rem 10rem 2rem 4rem;
+    font-weight: 600;
+    /* color: rgba(15, 26, 26, 0.909); */
+    color: black;
+    font-size: 2.9rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo1:hover{
+    cursor: pointer;
+    color: hsla(0, 0%, 0%, 0.587);
+}
+
+  
+   .logolast{
+      display: grid;
+      justify-content: center;
+   }
+  
+   .logolast img{
+      padding: 30px 0px;
+      width: 59px;
+      
+   }
+  
+   .links{
+      display: grid;
+      /* grid-template-columns: repeat( 3,1fr); */
+      grid-template-columns: 180px 180px 190px;
+      justify-items: start;
+      align-items: center;
+      gap:  34px 0px;
+      align-content: center;
+      margin-top: 15px;
+  
+      /* in flex if gap used, it gaps the boxes, hence li seperates, and hover works only on the text, instead if padding used, the  the hover will work upto the padding's lenght */
+  
+   }
+  
+   .links li{
+      
+       /* padding: 18px; */
+       font-size: 1.1rem;
+       font-weight: bold;
+       color: black;
+       list-style: none;
+       
+  
+      
+   }
+  
+   .logo-icon {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 37px;
+      
+  
+  
+   }
+  
+  
+   .links   :hover {
+      cursor: pointer;
+      color:hsla(0, 0%, 0%, 0.587);
+      
+  
+   }
+  
+    .logo-icon i:hover{
+      cursor: pointer;
+    }
+  
+   
+
+    .buttontell button{
+        font-size: 1.3rem;
+        border-radius: 10px;
+        padding: 15px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    button:hover{
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+
+
+    /* css for contact us page */
+
+
+
+
+
+
+
+    .mcolor{
+        /* background-color: #eafbf7; */
+        margin-top: 9.4rem;
+        color: white;
+        
+    }
+    .contax{
+        padding-top: 2rem;
+        /* background-color: #eafbf7; */
+        padding-bottom: 2rem;
+    }
+
+ .cont{
+    
+    font-family: Poppins,Inter,-apple-system,BlinkMacSystemFont,sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+     text-align: center;
+    letter-spacing: -.01875rem;
+    line-height: 4.5rem; 
+ }
+
+ .fill{
+    margin-top: 1.3rem;
+    font-family:  Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+
+    
+ }
+
+
+    /* .main-contact{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        margin: 4rem;
+        color: #4f5c65;
+        
+    }
+    .contaform{
+        margin-left: 4rem;
+        
+    } */
+
+    
+
+
+
+    
+    /* Styles for the image slider */
+    /* .slider-container {
+      width: 1250px;
+      height: 300px;
+      overflow: hidden;
+      position: relative;
+      margin: 2rem; */
+    /* } */
+    
+    /* .slider {
+      width: 1600px; Total width of all images */
+      /* display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .slider img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+     */
+    /* Styling for slide captions */
+    /* .slide-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+    } */
+    
+    /* Button styles */
+    /* .slider-controls {
+      margin-top: 10px;
+      text-align: end;
+    }
+    
+    .slider-controls button {
+      background-color: #f1f1f1;
+      border: none;
+      color: #333;
+      padding: 8px 16px;
+      cursor: pointer;
+      margin-right: 5px;
+    } */
+    
+    /* Active button style */
+    /* .slider-controls button.active {
+      background-color: #333;
+      color: #fff;
+    }
+
+    .arrowx{
+        
+        width: 30px;
+        
+    
+    } */
+
+
+    .imgcont img{
+        /* width: 1260px;
+        height: 400px; */
+        width:99.9%;
+        height: 50%;
+        position: absolute;
+        z-index: -1;
+        margin-left: .1rem;
+    
+    }
+
+
+
+    .main-conta{
+        /* background-image: url(contabakg-PhotoRoom.png) ; */
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+        margin-bottom: -9.4rem;
+        
+    }
+
+    .container {
+    
+        max-width: 700px;
+    
+        
+        margin: auto;
+        margin-top: 2.5rem;
+        
+        
+        
+        padding: 40px;
+    
+        border: 1px solid black;
+        border-radius: 5px;
+        color: black;
+      
+        
+    }
+    
+
+    h1 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 16px;
+    }
+    
+    textarea {
+        height: 150px;
+    }
+    
+    button[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    
+
+
+
+
+
+
+
+    /* 4.32 */
+
+   .row1{
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .row2{
+    display: flex;
+    justify-content: space-between;
+   }
+
+    .column {
+        /* display: flex;
+        flex-direction: row; */
+
+        width: 23%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+        margin-left: 8px;
+        padding-bottom: 2rem;
+
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+      
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.242);
+        border-radius: 20px;
+      }
+      .card:hover{
+        transition:  0.3s ease;
+        transform: scale(1.07);
+       
+      }
+      
+      /* .container {
+        padding: 0 16px;
+      }
+      
+     
+      
+      .title {
+        color: grey;
+      } */
+
+      .scrollclass{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      
+
+      }
+
+      .scrollclass:hover {
+        cursor: pointer;
+        
+
+
+      }
+
+      
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+      .slider1{
+        font-size: 18px;
+        font-weight: 740;
+        font-family: 'Lato', sans-serif;
+        margin-left: 0.5rem;
+        margin-bottom: 3px
+
+        
+        
+        
+      }
+
+      .slider2{
+        font-weight: 400;
+    font-size: 12px;
+    margin-left: 0.5rem;
+    margin-bottom: 10px;
+    opacity: 0.7;
+    
+      }
+
+      .slider3{
+        margin-left: 0.5rem;
+        font-size: 16px;
+        line-height: 20px;
+        
+        
+    
+      }
+      
+
+.unique{
+  margin-top: 2rem;
+  background-image: url(tajmahal1.jpeg);
+  background-size: 100% 100%;
+  margin-left: 20%;
+  width: 60%;
+  height: 60vh;
+  animation: slider1 15s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+@keyframes slider1{
+  0%{ background-image: url(tajmahal1.jpeg);
+      background-size: 100% 100%;
+
+  }
+ 20%{
+      background-image: url(gate1.jpg);
+      background-size: 100% 100%;
+  }
+  40%{ background-image: url(kutch2.jpg);
+      background-size: 100% 100%;
+  }
+  60%{background-image: url(red1.jpg);
+      background-size: 100% 100%;
+  }
+  80%{ background-image: url(umaid1.webp);
+      background-size: 100% 100%;
+  }
+}
+     
+      
+     
+      
+ 
+
+   
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
